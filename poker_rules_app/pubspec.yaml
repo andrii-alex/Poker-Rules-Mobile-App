@@ -21,9 +21,9 @@ dev_dependencies:
 # flutter pub get
 # flutter pub get flutter_native_splash:create
 flutter_native_splash:
-  color: '#f5cb42'
-  image: assets/splash_poker.png
-  fit: BoxFit.contain
+  color: '#f5f7fa'
+  image: assets/ace_cards.png
+  
 
 flutter:
   uses-material-design: true
