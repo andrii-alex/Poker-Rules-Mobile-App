@@ -15,10 +15,6 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: "poker rules app",
-      // localizationsDelegates: [
-      //   DefaultMaterialLocalizations.delegate,
-      //   DefaultWidgetsLocalizations.delegate,
-      // ],
       supportedLocales: [
         Locale('en', 'US'),
         Locale('es', 'ES'),

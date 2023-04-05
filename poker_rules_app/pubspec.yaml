@@ -20,8 +20,11 @@ dev_dependencies:
 # flutter clean
 # flutter pub get
 # flutter pub get flutter_native_splash:create
+
+# general command:
+# flutter pub run flutter_native_splash:create
 flutter_native_splash:
-  color: '#f5f7fa'
+  color: '#111111'
   image: assets/ace_cards.png
   
 
