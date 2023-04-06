@@ -1,3 +1,3 @@
-# poker_rules_app
+# POKER RULES APP
 
-A new Flutter project.
+## A Flutter project
