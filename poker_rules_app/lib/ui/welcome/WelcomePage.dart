@@ -52,7 +52,7 @@ class WelcomePage extends StatelessWidget {
                 ),
                 textAlign: TextAlign.center,
               ),
-              const SizedBox(height: 32.0),
+              const SizedBox(height: 18.0),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -76,11 +76,11 @@ class WelcomePage extends StatelessWidget {
                                 builder: (context) =>
                                     const GamePresentation()));
                       },
-                      icon: const Icon(Icons.info_outline, color: defaultColor),
+                      icon: const Icon(Icons.info_outline, color: textColor),
                       label: const Text(
                         "INFO",
                         style: TextStyle(
-                          color: defaultColor,
+                          color: textColor,
                         ),
                       )),
                   ElevatedButton.icon(
@@ -103,11 +103,11 @@ class WelcomePage extends StatelessWidget {
                               builder: (context) => const HandRankings()),
                         );
                       },
-                      icon: const Icon(Icons.list, color: defaultColor),
+                      icon: const Icon(Icons.list, color: textColor),
                       label: const Text(
                         "RANKS",
                         style: TextStyle(
-                          color: defaultColor,
+                          color: textColor,
                         ),
                       )),
                 ],
